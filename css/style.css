@@ -1,9 +1,24 @@
 @font-face {
-  font-family: 'icomoon';
+  /*font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");*/
+  font-family:'rubik';
+  src: url("../fonts/Rubik/Rubik-Regular.ttf") format("embedded-opentype"),
   font-weight: normal;
   font-style: normal;
+
+   font-family:'rubik-bold';
+  src: url("../fonts/Rubik/Rubik-Bold.ttf") format("embedded-opentype"),
+    font-weight: normal;
+  font-style: normal;
+
+  font-family:'rubik-light';
+  src: url("../fonts/Rubik/Rubik-Bold.ttf") format("embedded-opentype"),
+    font-weight: normal;
+  font-style: normal;
+ 
+
+  
 }
 /* =======================================================
 *
@@ -12,10 +27,10 @@
 *
 * ======================================================= */
 body {
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Rubik", Arial, sans-serif;
   font-weight: 400;
   font-size: 17px;
-  line-height: 1.8;
+  line-height: 1; /* cambie esto para las 3 cajitas de los pasos a seguir que se veian muy separadas */
   color: #777777;
   color: #7f7f7f;
   background: #fff;
@@ -261,6 +276,7 @@ body {
   width: 100%;
   padding-bottom: 50px;
   margin-bottom: 50px;
+  margin-top: 80px;
   clear: both;
 }
 .section-heading h2 {
@@ -311,13 +327,18 @@ body {
 
 #fh5co-our-services,
 #fh5co-about-us,
-#fh5co-features,
+
 #fh5co-testimonials,
 #fh5co-pricing,
 #fh5co-press,
 #fh5co-product-screenshots,
 #fh5co-tour {
-  padding: 7em 0 0 0;
+  padding: 5em 0 2em 0;
+}
+
+#fh5co-features {    
+  /*box-shadow: inset 1px -50px 100em #43a7f9;*/
+box-shadow: inset 1px -50px 100em #d3d3d3
 }
 
 @media screen and (max-width: 480px) {
@@ -470,19 +491,25 @@ body {
 #fh5co-pricing .pricing-plan {
   margin: 0;
   padding: 0;
-  font-size: 15px;
+  font-size: 22px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  font-weight: 700;
 }
+
+.starting-from {
+  font-size:12px;
+  font-family: 'Rubik-light';
+}
+
+
 #fh5co-pricing .price {
   font-size: 50px;
-  color: #000;
+  color: red;
 }
 #fh5co-pricing .price .currency {
   font-size: 30px;
   top: -1.2em;
-  color:white;
+  color:grey;
 }
 #fh5co-pricing .price small {
   font-size: 16px;
@@ -910,7 +937,7 @@ body {
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
-  background: #4AE3B5;
+  background: #4AE3B5; /*verde*/
 }
 .btn:hover, .btn:active, .btn:focus {
   background: #393e46 !important;
@@ -1332,7 +1359,7 @@ body {
 }
 
 .row-bottom-padded-sm {
-  padding-bottom: 2em;
+  padding-bottom: 8em; /*cambie esto para que la primera caja ocupe toda la ventana*/
 }
 @media screen and (max-width: 768px) {
   .row-bottom-padded-sm {
@@ -1348,16 +1375,29 @@ body {
 }
 
 
+.about-us{
+  color:grey;
+  font-size:18px;
+  line-height: 25px;
+  font-family: Rubik-light;
+}
 
 .fondo-sector-principal {
   background-color:#B97CFC !important;
   padding-bottom: 0;
   margin-bottom: 0;
+  box-shadow: inset 1px -50px 100em #43a7f9;
 }
 
 .need-margin {
   margin: 0;
   text-align: left;
+}
+
+.need-margin-2{
+  margin: 0;
+  line-height: 1.5em;
+  text-align: center;
 }
 
 .guarantee-price h3{
@@ -1366,12 +1406,16 @@ body {
 
 .hey-homework {
   color:white;
+  margin: 0;
+  font-size:24px;
+  text-align:left !important;
 }
 
 .heading-3ra-section{
   color: white;
   text-align:center;
-  margin-bottom: 6em;
+  margin-top:0.8em;
+  margin-bottom: 2em;
 }
 
 .lista-de-requerimientos{
@@ -1379,8 +1423,10 @@ body {
   color:white;
 }
 
+
 big {
   font-size:65px;
-  color: white;
+  color: #4facfe;
+  font-family: "rubik-bold";
 }
 /*# sourceMappingURL=style.css.map */
