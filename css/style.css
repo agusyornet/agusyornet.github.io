@@ -498,7 +498,7 @@ box-shadow: inset 1px -50px 100em #d3d3d3
 
 .starting-from {
   font-size:12px;
-  font-family: 'Rubik-light';
+  /*font-family: 'Rubik-light';*/
 }
 
 
@@ -1379,14 +1379,14 @@ box-shadow: inset 1px -50px 100em #d3d3d3
   color:grey;
   font-size:18px;
   line-height: 25px;
-  font-family: Rubik-light;
+  /*font-family: Rubik-light;    no anda la font rubik*/ 
 }
 
 .fondo-sector-principal {
   background-color:#B97CFC !important;
   padding-bottom: 0;
   margin-bottom: 0;
-  box-shadow: inset 1px -50px 100em #43a7f9;
+  box-shadow: inset 1px -50px 100em #000000 ; /*sombre home*/
 }
 
 .need-margin {
@@ -1427,6 +1427,6 @@ box-shadow: inset 1px -50px 100em #d3d3d3
 big {
   font-size:65px;
   color: #4facfe;
-  font-family: "rubik-bold";
+  /*font-family: "rubik-bold";*/
 }
 /*# sourceMappingURL=style.css.map */
