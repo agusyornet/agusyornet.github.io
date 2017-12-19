@@ -1424,6 +1424,8 @@ box-shadow: inset 1px -50px 100em #d3d3d3
   text-align:center;
   margin-top:0.8em;
   margin-bottom: 2em;
+   font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
 }
 
 .lista-de-requerimientos{
