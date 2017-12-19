@@ -16,13 +16,12 @@
   src: url("../fonts/Rubik/Rubik-Bold.ttf") format("embedded-opentype"),
     font-weight: normal;
   font-style: normal;  
-*/
+
 font-family: 'Montserrat-Bold';
  src: url("../fonts/icomoon/Montserrat-Bold.ttf") format("truetype"),
- local('Montserrat-Bold'); 
+ local('Montserrat-Bold'); */
 }
 
-@import url(//fonts.googleapis.com/css?family=Montserrat);
 /* =======================================================
 *
 * 	Template Style 
@@ -291,7 +290,8 @@ body {
   display: block;
   padding-bottom: 0px;
   line-height: 1.6;
-  font-family: "Montserrat-Bold", Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
 }
 .section-heading h2:after {
   content: "";
@@ -497,7 +497,8 @@ box-shadow: inset 1px -50px 100em #d3d3d3
   font-size: 22px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  font-family: Montserrat-Bold;
+  font-family: 'Montserrat:800', sans-serif;
+  font-weight: 600;
 }
 
 .starting-from {
@@ -509,7 +510,8 @@ box-shadow: inset 1px -50px 100em #d3d3d3
 #fh5co-pricing .price {
   font-size: 50px;
   color: red;
-  font-family: Montserrat-Bold;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
 }
 #fh5co-pricing .price .currency {
   font-size: 30px;
@@ -1396,7 +1398,8 @@ box-shadow: inset 1px -50px 100em #d3d3d3
 .need-margin {
   margin: 0;
   text-align: left;
-  font-family: "montserrat-extrabold";
+    font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
 }
 
 .need-margin-2{
