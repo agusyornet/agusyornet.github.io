@@ -17,9 +17,9 @@
     font-weight: normal;
   font-style: normal;  
 */
-font-family: 'montserrat-bold';
- src: url("../fonts/icomoon/montserrat-bold.ttf") format("truetype"),
- local('montserrat-bold'); 
+font-family: 'Montserrat-Bold';
+ src: url("../fonts/icomoon/Montserrat-Bold.ttf") format("truetype"),
+ local('Montserrat-Bold'); 
 }
 
 /* =======================================================
@@ -290,7 +290,7 @@ body {
   display: block;
   padding-bottom: 0px;
   line-height: 1.6;
-  font-family: "Montserrat-bold", Arial, sans-serif;
+  font-family: "Montserrat-Bold", Arial, sans-serif;
 }
 .section-heading h2:after {
   content: "";
@@ -496,7 +496,7 @@ box-shadow: inset 1px -50px 100em #d3d3d3
   font-size: 22px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  font-family: Montserrat-bold;
+  font-family: Montserrat-Bold;
 }
 
 .starting-from {
@@ -508,7 +508,7 @@ box-shadow: inset 1px -50px 100em #d3d3d3
 #fh5co-pricing .price {
   font-size: 50px;
   color: red;
-  font-family: Montserrat-bold;
+  font-family: Montserrat-Bold;
 }
 #fh5co-pricing .price .currency {
   font-size: 30px;
