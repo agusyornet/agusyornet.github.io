@@ -2,7 +2,7 @@
   /*font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
   src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");*/
-  font-family:'rubik';
+ /* font-family:'rubik';
   src: url("../fonts/Rubik/Rubik-Regular.ttf") format("embedded-opentype"),
   font-weight: normal;
   font-style: normal;
@@ -16,9 +16,10 @@
   src: url("../fonts/Rubik/Rubik-Bold.ttf") format("embedded-opentype"),
     font-weight: normal;
   font-style: normal;  
-
+*/
 font-family: 'montserrat-bold';
- src: url("../fonts/icomoon/montserrat-bold.ttf") format("truetype"); 
+ src: url("../fonts/icomoon/montserrat-bold.ttf") format("truetype"),
+ local('montserrat-bold'); 
 }
 
 /* =======================================================
